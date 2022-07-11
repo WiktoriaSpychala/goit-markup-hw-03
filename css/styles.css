@@ -1,0 +1,410 @@
+* {
+    box-sizing: border-box;
+}
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Górny pasek strony */
+
+.header-background {
+    display: flex;
+    height: 80px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Górny pasek strony - logo */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-right: 93px;
+}
+
+.first-word {
+    color: #2196F3;
+}
+.second-word {
+    color: #000000;
+}
+
+/* Górny pasek strony - agencja, portfolio, kontakt */
+
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    text-align: left;
+    letter-spacing: 0.02em;
+    gap: 46px;
+    padding: 0;
+    margin: 0;
+}    
+
+.menu .link {
+    color: #212121;
+
+}
+
+
+.menu .link:hover,
+.menu .link:focus {
+    color: #2196F3;
+}
+
+/* Górny pasek strony - mail i tel */
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-left: 371px;
+
+}
+.contact > li:nth-child(2) {
+    padding-left: 50px;
+}
+
+
+.contact .link {
+    color:#757575;
+}
+.contact .link:hover,
+.contact .link:focus {
+    color: #2196F3;
+}
+
+
+/* Strona główna - slogan + przycisk */
+
+
+.main-slogan {
+    background-color:#2F303A;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.slogan {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    line-height: 1.37;
+    width: 696px;
+    height: 120px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #FFFFFF;
+    color: #2196F3;
+}
+
+/* Strona główna - 4 kolumy tekstu */
+
+
+.text {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 30px;
+
+}
+
+
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 00.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Storna główna - czym się zajmujemy + nasz zespół */
+
+
+.what-we-do {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    color: #212121;
+    text-align: center;
+    letter-spacing: 00.03em;
+    margin-top: 94px;
+
+}
+
+.work {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.team {
+    background-color: #F5F4FA;
+    width: 1600px;
+    height: 648px;
+}
+
+.our-team {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    color: #212121;
+    letter-spacing: 00.03em;
+    text-align: center;
+    margin: 0;
+}
+
+.workers {
+    list-style: none;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 124px;
+    letter-spacing: 0.03em;
+    gap: 30px;
+    
+}
+
+.workers li {
+    text-align: center;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom: 30px;
+}
+
+figure {
+    margin: 0;
+}
+
+.workers-data {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.workers-name {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    margin-bottom: 10px;
+}
+
+.profession {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.18;
+    color: #757575;
+    margin: 0;
+}
+
+/* Strona portfolio - przyciski */
+
+.buttons {
+    background-color: #F5F4FA;
+    cursor: pointer;
+    color:#212121;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    padding: 6px 22px;
+}
+
+.button-list {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.button-list .link:hover,
+.button-list .link:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+
+
+/* Strona portfolio - obrazki */
+
+.portfolio-images {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.portfolio-figcaption {
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    width: 370px;
+    padding-left: 24px;
+}
+
+.portfolio-header {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-transform: none;
+    margin: 0;
+}
+
+.portfolio-category {
+    font-size: 16px;
+    line-height: 1.85;
+    letter-spacing: 0.03em;
+    padding-top: 4px;
+    color:#757575
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+
+/* Stopka */
+
+footer {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+}
+
+
+.logo-bottom {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.contact-bottom {
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-bottom li {
+    margin-bottom: 9px;
+    padding-left: 40px;
+}
+
+.contact-bottom .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+.contact-bottom .link:hover,
+.contact-bottom .link:focus {
+    color: #2196F3;
+}
+
+
+footer .second-word {
+    color: #FFFFFF;
+}
+footer {
+    color: #FFFFFF;
+}
+address {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+}
