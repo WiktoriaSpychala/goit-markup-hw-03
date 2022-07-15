@@ -13,8 +13,7 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
     width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 /* Górny pasek strony */
@@ -113,9 +112,9 @@ a {
 
 .main-slogan {
     background-color:#2F303A;
-    height: 600px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 200px;
 
 }
 
@@ -131,8 +130,6 @@ a {
     height: 120px;
     margin-top: 200px;
     margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .main-button {
@@ -140,13 +137,13 @@ a {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 700;
+    letter-spacing: 0.06em;
     width: 200px;
     height: 50px;
     border: none;
     border-radius: 4px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 
 }
 
@@ -162,15 +159,10 @@ a {
 .text {
     list-style: none;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: auto;
     gap: 30px;
-
+    padding: 0;
 }
-
-
 
 h3 {
     font-size: 14px;
@@ -179,6 +171,7 @@ h3 {
     letter-spacing: 00.03em;
     text-transform: uppercase;
     color: #212121;
+    margin: 0;
 }
 
 .description {
@@ -186,10 +179,11 @@ h3 {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 /* Storna główna - czym się zajmujemy + nasz zespół */
-
 
 .what-we-do {
     font-size: 36px;
@@ -199,14 +193,14 @@ h3 {
     text-align: center;
     letter-spacing: 00.03em;
     margin-top: 94px;
-
 }
 
 .work {
     list-style: none;
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
     margin-top: 50px;
+    padding: 0;
 }
 
 .team {
@@ -231,8 +225,8 @@ h3 {
     margin-top: 50px;
     margin-bottom: 124px;
     letter-spacing: 0.03em;
-    gap: 30px;
-    
+    justify-content: space-between;
+    padding: 0;
 }
 
 .workers li {
@@ -341,8 +335,7 @@ figure {
 
 .container {
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .section {
@@ -371,7 +364,7 @@ footer {
     display: flex;
     padding-top: 60px;
     padding-bottom: 20px;
-    padding-left: 40px;
+    width: max-content;
 }
 
 .contact-bottom {
@@ -384,7 +377,6 @@ footer {
 
 .contact-bottom li {
     margin-bottom: 9px;
-    padding-left: 40px;
 }
 
 .contact-bottom .link {
